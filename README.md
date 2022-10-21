@@ -203,7 +203,7 @@ jay_z.name
 
 Let's say that instead of storing the full name in a single `name` variable, we
 decided we want to store the first and last name separately. We could simply
-replace our `attr_accessor` for `name` with `attr_accessor`s for `first_name`
+eplace our `attr_accessor` for `name` with `attr_accessor`s for `first_name`
 and `last_name`, but then we'd need to set two separate attributes when we
 create a new instance of the `Person` class.
 
